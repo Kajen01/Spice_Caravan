@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Quicksand:wght@300..700&display=swap');
+
+.Navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    font-family: 'Nunito', 'Courier New', monospace;
+}
+
+.Navbar .logo {
+    max-width: 350px;
+}
+
+.navbarMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    color: #49557e;
+    font-weight: 600;
+}
+
+.navbarRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbarRight button {
+    background: transparent;
+    font-size: 1rem;
+    color: #49557e;
+    border: 1ox solid tomato;
+    padding: 0.8rem 1.2rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.navbarRight button:hover {
+    background-color: #fad7d1;
+}
+
+.Navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+    transition: 0.1s;
+}
+
+.Navbar li:hover {
+    cursor: pointer;
+}
+
+
+.navbar-search-icon {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    min-width: 0.8rem;
+    min-height: 0.8rem;
+    background-color: tomato;
+    border-radius: 0.5rem;
+    top: 0;
+    right: -0.4rem;
+}
+
