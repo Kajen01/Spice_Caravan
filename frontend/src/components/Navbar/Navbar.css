@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Quicksand:wght@300..700&display=swap');
-
 .Navbar {
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
-    font-family: 'Nunito', 'Courier New', monospace;
+    margin: 1rem 0;
 }
 
 .Navbar .logo {
@@ -37,7 +33,7 @@
     color: #49557e;
     border: 1ox solid tomato;
     padding: 0.8rem 1.2rem;
-    border-radius: 4rem;
+    border-radius: 2rem;
     cursor: pointer;
     transition: 0.3s;
     font-weight: 600;
@@ -72,3 +68,41 @@
     right: -0.4rem;
 }
 
+.menu_icon{
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .menu_icon{
+        display: block;
+    }
+
+    .navbarMenu {
+        display: none;
+    }
+
+    .Navbar .logo {
+        max-width: 150px;
+    }
+
+    .navbarRight {
+        display: none;
+    }
+
+    .mobileMenu {
+        display: flex;
+    }
+}
