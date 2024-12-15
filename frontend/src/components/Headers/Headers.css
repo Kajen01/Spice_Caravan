@@ -52,5 +52,22 @@
 }
 
 @media (max-width: 768px) {
+    .Header-content {
+        max-width: 100%;
+        gap: 1rem;
+    }
     
+    .Header-content h2 {
+        font-size: 1rem;
+    }
+
+    .Header-content p {
+        font-size: 0.5rem;
+    }
+
+    .Header-content button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+    }
 }
