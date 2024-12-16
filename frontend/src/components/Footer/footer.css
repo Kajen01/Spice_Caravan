@@ -1,0 +1,70 @@
+.footer {
+    color: #d9d9d9;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1.4rem 4vw;
+    padding-top: 4rem;
+    margin-top: 5rem;
+}
+
+.footer-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.2rem;
+}
+
+.footer-content-left li,
+.footer-content-center li,
+.footer-content-right li {
+    list-style: none;
+    margin-bottom: 0.6rem;
+    cursor: pointer;
+}
+
+.footer-content-left li:hover,
+.footer-content-center li:hover,
+.footer-content-right li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+    color: white;
+}
+
+.footer-social-icons img {
+    margin-right: 1rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.footer-social-icons img:hover {
+    filter: brightness(80%);
+    filter: contrast(50%);
+}
+
+.footer-content-left .app-logo {
+    width: 90%;
+}
+
+.footer hr {
+    width: 100%;
+    height: 2px;
+    margin: 1rem 0;
+    border: none;
+    background-color: gray;
+}

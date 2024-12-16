@@ -3,6 +3,7 @@ import './Home.css'
 import Headers from '../../components/Headers/Headers.jsx'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu.jsx'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay.jsx'
+import Reviews from '../../components/Reviews/Reviews.jsx'
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
       <FoodDisplay
         category={category}
       />
+      <Reviews />
     </div>
   )
 }
