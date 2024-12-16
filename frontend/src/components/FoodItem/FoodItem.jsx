@@ -9,7 +9,7 @@ export const FoodItem = ({id, name, price, description, image}) => {
             <img className='food-item-image' src={image} alt="Food Item" />
         </div>
         <div className="food-item-info">
-            <div className="food-item-mane-rating">
+            <div className="food-item-name-rating">
                 <p>{name}</p>
                 <img src={assets.rating_starts} alt="Rating Stars" />
             </div>
