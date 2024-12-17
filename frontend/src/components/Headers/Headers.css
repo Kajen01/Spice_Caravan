@@ -51,7 +51,7 @@
     color: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
     .Header-content {
         max-width: 100%;
         gap: 1rem;

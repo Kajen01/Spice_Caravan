@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 
 .Navbar .logo {
@@ -85,7 +85,7 @@
     z-index: 10;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
     .menu_icon{
         display: block;
     }
@@ -99,7 +99,13 @@
     }
 
     .navbarRight {
-        display: none;
+        /* display: none; */
+        gap: 0.2rem;
+    }
+
+    .navbarRight button {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.6rem;
     }
 
     .mobileMenu {
